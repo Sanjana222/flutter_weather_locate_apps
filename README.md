@@ -19,19 +19,20 @@ To run this project, you need to have the following tools installed:
 Clone the repository:
    git clone https://github.com/Sanjana222/flutter_weather_locate_apps.git
 
-### Android Configuration
+### Android Configuration [Just for Information]
 
-- Added permissions for accessing location services in `AndroidManifest.xml`:
+- I have added permissions for accessing location services in `AndroidManifest.xml`:
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-feature android:name="android.hardware.location.gps"/>
 
-### iOS Configuration
-- Added location permissions in `Info.plist`:
+### iOS Configuration [Just for Information]
+- I have added location permissions in `Info.plist`:
 <key>NSLocationWhenInUseUsageDescription</key>
 
 
 ## Run App
+After cloning Repository type in terminal cd flutter_weather_locate_apps
 Clean the project by flutter clean
 Get Packages by flutter pub get
 Run the project by flutter run
