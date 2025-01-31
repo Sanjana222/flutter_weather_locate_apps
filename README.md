@@ -14,6 +14,11 @@ To run this project, you need to have the following tools installed:
 - Dart SDK (comes with Flutter)
 - Any IDE supporting Flutter (VS Code, Android Studio)
 
+## Installation
+
+Clone the repository:
+   git clone https://github.com/Sanjana222/flutter_weather_locate_apps.git
+
 ### Android Configuration
 
 - Added permissions for accessing location services in `AndroidManifest.xml`:
@@ -24,6 +29,7 @@ To run this project, you need to have the following tools installed:
 ### iOS Configuration
 - Added location permissions in `Info.plist`:
 <key>NSLocationWhenInUseUsageDescription</key>
+
 
 ## Run App
 Clean the project by flutter clean
