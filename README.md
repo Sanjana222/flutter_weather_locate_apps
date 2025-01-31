@@ -32,7 +32,7 @@ Clone the repository:
 
 
 ## Run App
-After cloning Repository type in terminal cd flutter_weather_locate_apps
+After cloning Repository, type in terminal cd flutter_weather_locate_apps
 Clean the project by flutter clean
 Get Packages by flutter pub get
 Run the project by flutter run
